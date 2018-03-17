@@ -6,3 +6,24 @@
 
 [$(document).ready() Explained by JQuery](https://learn.jquery.com/using-jquery-core/document-ready/)
 
+### hide
+`
+$(document).ready()
+`
+
+### show
+`
+$(document).ready()
+`
+### toggle (same button toggling between hide and show)
+`
+$(document).ready(
+  function() {
+    $(button).click(
+      function() {
+        $(h1).toggle();
+                 }
+               );
+              }
+           );
+`
